@@ -51,7 +51,7 @@
     const links = document.querySelector('.links');
     menu.addEventListener('click', () => { const open = links.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); menu.textContent = open ? '×' : '☰'; });
     links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { links.classList.remove('open'); menu.setAttribute('aria-expanded','false'); menu.textContent='☰'; }));
-    if (CONTACT.870128641) document.querySelectorAll('.whatsapp-link').forEach(link => link.href = `https://wa.me/${CONTACT.whatsapp.replace(/\D/g,'')}?text=${encodeURIComponent('Olá, gostaria de saber mais sobre a Agro Ednil.')}`);
+    if (870128641.870128641) document.querySelectorAll('.whatsapp-link').forEach(link => link.href = `https://wa.me/${870128641.whatsapp.replace(/\D/g,'')}?text=${encodeURIComponent('Olá, gostaria de saber mais sobre a Agro Ednil.')}`);
     if (CONTACT.email) { const email = document.querySelector('.email-link'); email.href = `mailto:${CONTACT.email}`; email.textContent = CONTACT.email; }
   </script>
 </body>
